@@ -1,0 +1,50 @@
+/* AppComponent's private CSS styles */
+h1 {
+  font-size: 1.2em;
+  color: #999;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  padding-top: 0;
+}
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: #607D8B;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #CFD8DC;
+}
+nav a.active {
+  color: #039be5;
+}
+
+
+.navcontainer {
+    position: relative;
+    height: 25px;
+    border-top: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+}
+ul .accents {
+    list-style-type: none;
+}
+ul.accents li {
+    display: inline-block;
+    margin-left: 5px;
+}
+ul.accents li#first {
+    margin-left: 10px;
+}
+ul.accents li#last {
+    margin: 1px 0 0 15px;
+}
