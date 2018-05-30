@@ -60,3 +60,14 @@ h4 {
     min-width: 60px;
   }
 }
+
+
+.item_normalization_search {
+    width: 50%;
+    float: left;
+}
+
+.regular_search {
+    width: 50%;
+    float: left;
+}

@@ -8,6 +8,8 @@ import { HeroService } from '../hero.service';
   styleUrls: [ './dashboard.component.css' ]
 })
 export class DashboardComponent implements OnInit {
+  itemNormalizationSearch = "Item Normalization Search";
+  regularSearch = "Regular Search";
   heroes: Hero[] = [];
 
   constructor(private heroService: HeroService) { }

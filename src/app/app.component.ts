@@ -7,7 +7,7 @@ import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Token Annotator';
+  title = 'Compare Item Normalization Search and Regular Search';
   foods = [
     {value: 'steak-0', viewValue: 'Steak'},
     {value: 'pizza-1', viewValue: 'Pizza'},

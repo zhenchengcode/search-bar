@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input} from '@angular/core';
 
 import { Observable, Subject } from 'rxjs';
 
@@ -15,6 +15,7 @@ import { HeroService } from '../hero.service';
   styleUrls: [ './hero-search.component.css' ]
 })
 export class HeroSearchComponent implements OnInit {
+  @Input() searchType: string;
   heroes$: Observable<Hero[]>;
   private searchTerms = new Subject<string>();
 
