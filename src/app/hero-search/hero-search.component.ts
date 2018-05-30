@@ -19,6 +19,7 @@ export class HeroSearchComponent implements OnInit {
   heroes$: Observable<Hero[]>;
   private searchTerms = new Subject<string>();
 
+
   constructor(private heroService: HeroService) {}
 
   // Push a search term into the observable stream.
@@ -38,4 +39,6 @@ export class HeroSearchComponent implements OnInit {
       switchMap((term: string) => this.heroService.searchHeroes(term)),
     );
   }
+
+
 }
